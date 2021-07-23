@@ -1,0 +1,5 @@
+#a simple program to print len of the string 
+
+a="Apple"
+len=len(a) #To get the length of a string, use the len() function.
+print(len)
