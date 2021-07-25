@@ -1,0 +1,9 @@
+str1=input()
+hlf_ind=len(str1)//2
+res=''
+for ind in range(len(str1)):
+    if ind >=hlf_ind:
+        res+=str1[ind].upper()
+    else:
+        res+=str1[ind]
+print(str(res))
